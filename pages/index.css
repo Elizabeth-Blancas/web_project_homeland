@@ -1,0 +1,85 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/header.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/photo-grid.css");
+@import url("../blocks/places.css");
+@import url("../blocks/cover.css");
+@import url("../blocks/footer.css");
+
+
+body {
+    background-color: black;
+}
+
+.page {
+    min-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  /*h1, h2, h3, div, img, p{
+    border: solid 1px red;
+  }*/
+  
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page {
+    max-width: 1279px;
+  }
+
+  .lead__subtitle {
+    margin: 99px auto 0;
+  }
+
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+
+  .intro {
+    width: 720px;
+  }
+
+  .photo-grid {
+    width: 720px;
+    height: 1104px;
+    margin: 92px auto 68px;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+  }
+
+  .places {
+    max-width: 720px;
+  }
+
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 900;
+  }
+
+  .place__image {
+    max-width: 340px;
+    height: 340px;
+}
+
+.place__paragraph {
+  max-width: 352px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.cover {
+  width: 768px;
+  height: 746px;
+  overflow: hidden;
+}
+}
+
+@media screen and (max-width: 767px) {
+  
+}
