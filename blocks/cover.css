@@ -60,28 +60,31 @@
     text-align: center;
     width: 280px;
     margin-top: 32px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
 }
 
-.cover__button {
+/*.cover__button {
     background-color: #0278FE;
     width: 198px;
     height: 48px;
     margin-top: 32px;
     border: none;
     border-radius: 5px;
-}
+}*/
 
-.cover__button:hover {
-    background-color: #0063D2;
-}
-
-.cover__button-link {
+.cover__button {
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
     text-decoration: none;
     color: white;
+    background-color: #0278FE;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+.cover__button:hover {
+    background-color: #0063D2;
 }
 
 .no-margin {
@@ -119,9 +122,7 @@
         font-weight: 400;
         text-align: center;
         margin-top: 16px;
+        margin-bottom: 16px;
     }
     
-    .cover__button {
-        margin-top: 16px;
-    }
 }

@@ -53,25 +53,18 @@
 .place__button {
     grid-area: button;
     background-color: #0278FE;
-    max-width: 355px;
-    min-width: 288px;
-    height: 48px;
-    border: none;
     border-radius: 5px;
-    align-self: auto;
-    
-}
-
-.place__button:hover {
-    background-color: #0063D2;
-}
-
-.place__button-link {
+    padding: 13px 20px;
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
     text-decoration: none;
     color: white;
+    text-align: center;
+}
+
+.place__button:hover {
+    background-color: #0063D2;
 }
 
 .place__website_url-heading {
@@ -124,7 +117,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
+        gap: 0;
     }
       
     .place__title {
@@ -143,6 +137,12 @@
     .place__image {
         max-width: 340px;
         height: 340px;
+    }
+
+    .place__button {
+        padding: 15px 21px;
+        font-size: 14px;
+        line-height: 17px;
     }
 
 }
