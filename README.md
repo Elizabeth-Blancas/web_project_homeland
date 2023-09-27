@@ -12,4 +12,4 @@ Podrás econtrar un link después de cada imagen para conocer más sobre los NFT
 * En los enlaces se tienen transición de color al colocar el mouse encima.
 
 ## Proyecto Online
-Puedes visitar aquí: https://elizabeth-blancas.github.io/web_project_3_esp/index.html 
+Puedes visitar aquí: https://elizabeth-blancas.github.io/web_project_homeland/index.html
