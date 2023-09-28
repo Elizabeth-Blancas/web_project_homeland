@@ -10,13 +10,13 @@
 
 
 body {
-    background-color: black;
+    background-color: #2A2C2F;
 }
 
 .page {
     max-width: 1280px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #2A2C2F;
     color: white;
     font-family: 'Inter', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
